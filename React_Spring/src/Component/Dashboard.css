@@ -1,0 +1,43 @@
+.Dashboard {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .students-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .student-card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 200px;
+  }
+  
+  .student-card p {
+    margin: 5px 0;
+  }
+  
+  .edit-button, .delete-button {
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover, .delete-button:hover {
+    background-color: #21a1f1;
+  }
+  
